@@ -1,0 +1,36 @@
+{
+  "name": "node_auth_app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NERONSW/node_auth_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NERONSW/node_auth_app/issues"
+  },
+  "homepage": "https://github.com/NERONSW/node_auth_app#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.922.0",
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
